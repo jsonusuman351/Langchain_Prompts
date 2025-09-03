@@ -1,6 +1,6 @@
 # 🚀 Prompt Engineering with LangChain
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python) !
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit) ![LangChain](https://img.shields.io/badge/LangChain-0086CB?style=for-the-badge&logo=langchain) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn) ![Python-Dotenv](https://img.shields.io/badge/Python--Dotenv-EFC538?style=for-the-badge)
 
 Welcome to this in-depth exploration of advanced prompt engineering techniques using LangChain! This repository is a collection of curated scripts and examples designed to showcase how to effectively structure conversations and instructions for Large Language Models (LLMs).
