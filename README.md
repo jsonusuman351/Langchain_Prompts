@@ -27,7 +27,7 @@ This repository is a journey through the essential prompting strategies in LangC
     -   **Chat History Retrieval**: Implement a simple yet effective mechanism to load and append to a conversation's history, giving the LLM the context it needs to provide relevant and coherent responses.
 
 4.  **💡 Building a Stateful Chatbot**:
-    -   The `chatbot_with_history.py` script ties all these concepts together into a functional chatbot. It demonstrates how to manage a conversation buffer, append new messages, and feed the entire history back to the LLM for a truly conversational experience.
+    -   The `chatbot.py` script ties all these concepts together into a functional chatbot. It demonstrates how to manage a conversation buffer, append new messages, and feed the entire history back to the LLM for a truly conversational experience.
 
 ---
 
