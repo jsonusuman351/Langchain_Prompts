@@ -2,7 +2,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python) !
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit) ![LangChain](https://img.shields.io/badge/LangChain-0086CB?style=for-the-badge&logo=langchain) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn) ![Python-Dotenv](https://img.shields.io/badge/Python--Dotenv-EFC538?style=for-the-badge)
-Welcome to this in-depth exploration of  prompt engineering techniques using LangChain! This repository is a collection of curated scripts and examples designed to showcase how to effectively structure conversations and instructions for Large Language Models (LLMs).
+
+Welcome to this in-depth exploration of advanced prompt engineering techniques using LangChain! This repository is a collection of curated scripts and examples designed to showcase how to effectively structure conversations and instructions for Large Language Models (LLMs).
 
 The core focus is on moving from simple, static inputs to dynamic, context-aware conversational prompts. This is the key to building intelligent, stateful AI applications.
 
@@ -42,9 +43,8 @@ This repository is a journey through the essential prompting strategies in LangC
 
 1.  **Clone the repository:**
     ```bash
-    # Replace with your repository URL
-    git clone [https://github.com/your-username/langchain_prompts.git](https://github.com/your-username/langchain_prompts.git)
-    cd langchain_prompts
+    git clone [https://github.com/jsonusuman351/Langchain_Prompts.git](https://github.com/jsonusuman351/Langchain_Prompts.git)
+    cd Langchain_Prompts
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -78,25 +78,25 @@ Each script in this repository is designed to be run independently to demonstrat
 
 -   **Create a dynamic prompt for a single message:**
     ```bash
-    python Basic_propmts/prompt_template.py
+    python prompt_template.py
     ```
 
 #### 2. Advanced Chat Prompt Templates
 
 -   **Invoke a chat model with a static list of messages:**
     ```bash
-    python Chat_propmts/list_of_messages_static.py
+    python messages.py
     ```
 -   **Use `ChatPromptTemplate` for dynamic, role-based conversations:**
     ```bash
-    python Chat_propmts/chat_prompt_template_dynamic.py
+    python chat_prompt_template.py
     ```
 
 #### 3. Managing Chat History
 
 -   **Use `MessagesPlaceholder` to dynamically insert conversation history:**
     ```bash
-    python Chat_propmts/message_placeholder_history.py
+    python message_placeholder.py
     ```
 
 #### 4. Simple Stateful Chatbot
@@ -104,7 +104,7 @@ Each script in this repository is designed to be run independently to demonstrat
 -   **Run a conversational chatbot that remembers past interactions:**
     This script will prompt you for input in a loop, maintaining the conversation's history.
     ```bash
-    python chatbot_with_history.py
+    python chatbot.py
     ```
     **Example Interaction:**
     ```
@@ -125,19 +125,15 @@ This repository is organized by concept, allowing you to explore each prompting 
 <summary>Click to view the code layout</summary>
 
 ```
-langchain_prompts/
+Langchain_Prompts/
 │
-├── Basic_propmts/              # Demonstrates fundamental prompt templates
-│   └── prompt_template.py
-│
-├── Chat_propmts/               # Focuses on structured conversational prompts
-│   ├── chat_prompt_template_dynamic.py
-│   ├── list_of_messages_static.py
-│   └── message_placeholder_history.py
-│
-├── chatbot_with_history.py     # A simple chatbot with conversational memory
+├── prompt_template.py         # Demonstrates fundamental prompt templates
+├── messages.py                # Shows static, role-based messaging
+├── chat_prompt_template.py    # Focuses on dynamic chat prompts
+├── message_placeholder.py     # Implements chat history retrieval
+├── chatbot.py                 # A simple chatbot with conversational memory
 ├── requirements.txt
-├── .env                        # (You need to create this for API keys)
+├── .env                       # (need to create this for API keys)
 └── README.md
 ```
 </details>
